@@ -4,4 +4,15 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  images: {
+    remotePatterns: [
+      {
+        protocol: '*',
+        hostname: '**',
+      },
+    ],
+    domains: ["placeimg.com", "cdn.pixabay.com", "gutenberg.org", "www.gutenberg.org"]
+ }
+}
