@@ -6,19 +6,60 @@ Run the development server with:
 
 ```bash
 npm run dev
-# or
-yarn dev
+
 ```
+
+## How To Use
+Fork this Repo and then clone it 
+  
+Run the npm command in 'getting started' above in the terminal  
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Technologies & Libraries
+* NextJs
+* ReactJS
+* TailwindCSS & PostCSS
+* React Inifinte Scroll Component
+
+* You can check `/package.json` for all used dependencies.
+  
+
+## Tools and API
+* VS Code : For code environment
+* Gutenberg.com : Project Gutenberg is a library of over 60,000 free eBooks
+* Gutendex.com : JSON web API for Project Gutenberg ebook metadata
+
+## Summary
+My Solution:
+* I made use of React and NextJS to build this solution. 
+* For CSS and styling, i made use of Tailwind and PostCSS
+* I made use of Fetch to handle the Requests from the `Gutendex` API
+* Main Files are located in :
+Pages/Index : Home Component
+src/components : Various Components
+src/util :  Utility file used to Fetch API data from Gutendex
+
+## Project Files
+
+* pages/index.js : Home Component
+* src/components/book.js : Handles book display
+* src/components/resultList.js : Displays the results of the search output
+* src/components/searchBar.js : Handles the searchBar display
+* src/components/selectedBook.js : Handles the picked book display
+* src/components/selectedItems.js : Displays the pickedBooks 
+* src/util/searchBook.js : Utility file to Fetch API data from Gutendex
+
+<!--
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-<!-- ## Learn More
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+ ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -42,7 +83,6 @@ PROCESS CMDS
 
 
 Links
-- https://medium.com/nextjs/how-to-add-an-image-in-next-js-5c1065450e3a // adding image
 - npm i axios // adding axios 
 - 
 - -->
