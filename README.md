@@ -52,6 +52,9 @@ src/util :  Utility file used to Fetch API data from Gutendex
 * src/components/selectedItems.js : Displays the pickedBooks 
 * src/util/searchBook.js : Utility file to Fetch API data from Gutendex
 
+![BookSearchApp](https://user-images.githubusercontent.com/29656791/188113274-4be5c80a-24f5-4a5c-8f14-1b9df7c75a9f.png)
+
+
 <!--
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
